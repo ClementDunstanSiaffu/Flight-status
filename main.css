@@ -1,0 +1,86 @@
+body{
+
+    font: 300 20px/1.6 'Roboto' ,sans-serif;
+}
+
+.container{
+
+    max-width: 500px;
+   
+    padding: 0 15px;
+    margin: 0 auto;
+   
+}
+
+h2{
+
+    font-size: 28px;
+    font-weight:500;
+    padding: 40px 0 20px ;
+    text-transform: uppercase;
+}
+
+.flightStatus{
+
+    text-align: center;
+    width: 100%;
+    background: #f9f9f9;
+  
+}
+
+table{
+
+    display: table;
+    width: 100%;
+    
+    
+}
+
+
+th{
+
+    text-transform: uppercase;
+    background: #e4e4e4;
+    font-weight: 50px;
+   
+
+}
+
+th, td{
+
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 15px;
+    
+}
+
+td{
+
+    border-bottom: solid 1px #ddd;
+    
+}
+
+.status{
+
+    background: #2ecc71;
+    color: #fff;
+}
+
+.status.onTime{
+
+    background: black;
+    color: #fff;
+}
+
+.status.delayed{
+
+    background: #f39c12;
+    
+}
+
+.status.cancelled{
+
+    background: #e74c3c;
+    
+}
